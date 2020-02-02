@@ -3,6 +3,11 @@
 
 A simple flask authentication app with both signup, login and logout features 
 
+## Screenshots
+<img src="https://github.com/jkuatdsc/Flask-Auth-Sample/blob/master/assets/simplelogin.png?raw=true" width="1000">
+<img src="https://github.com/jkuatdsc/Flask-Auth-Sample/blob/master/assets/simplesignup.png?raw=true" width="1000">
+<img src="https://github.com/jkuatdsc/Flask-Auth-Sample/blob/master/assets/simplehome.png?raw=true" width="1000">
+
 ## Getting Started
 
 * Clone the repository
@@ -27,7 +32,7 @@ A simple flask authentication app with both signup, login and logout features
 	> DEBUG=True
 
 	> SECRET_KEY='qwertyuiop1233456476897890'
-    
+
 	> SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://username:password@127.0.0.1:5432/db_name'
 
 * Create a database
