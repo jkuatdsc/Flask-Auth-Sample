@@ -3,10 +3,18 @@
 {% block content %}
 {{super()}}
 <div class="container">
-    <div class="jumbotron">
-        hello user
+    <div class="jumbotron mt-5" style="background-color: rgb(5, 53, 95);">
+        <h1>
+        <span style="color: orangered;">H</span>
+        <span style="color: orchid;">e</span>
+        <span style="color: gold;">l</span>
+        <span style="color: greenyellow;">l</span>
+        <span style="color: blue;">o</span> &nbsp; <span class="text-white">{{current_user.username}}</span></h1>
+        <p class="ml-2 text-white">You are successfully authenticated</p>
     </div>
-    <a href="/logout"><button class="btn btn-danger">Log Out</button></a>
-    <a href="/signup"><button class="btn btn-danger">Sign Up</button></a>
+   <div style="display: flex; justify-content: center; margin-top: 20%;">
+        <a href="/signup"><button class="btn btn-info mr-2">Sign Up</button></a>
+        <a href="/logout"><button class="btn btn-danger ml-2">Log Out</button></a>
+   </div>
 </div>
 {% endblock %}
