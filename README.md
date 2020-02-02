@@ -25,7 +25,9 @@ A simple flask authentication app with both signup, login and logout features
 
 * Add environment variables to the file
 	> DEBUG=True
+
 	> SECRET_KEY='qwertyuiop1233456476897890'
+    
 	> SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://username:password@127.0.0.1:5432/db_name'
 
 * Create a database
