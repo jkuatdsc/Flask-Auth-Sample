@@ -1,5 +1,5 @@
 
-# Flask Authentication
+# Simple Auth
 
 A simple flask authentication app with both signup, login and logout features 
 
