@@ -1,7 +1,7 @@
 
 # Simple Auth
 
-A simple flask authentication app with both signup, login and logout features 
+A simple flask authentication app with signup, login and logout features 
 
 ## Screenshots
 <img src="https://github.com/jkuatdsc/Flask-Auth-Sample/blob/master/assets/simplelogin.png?raw=true" width="1000">
@@ -11,33 +11,33 @@ A simple flask authentication app with both signup, login and logout features
 ## Getting Started
 
 * Clone the repository
-	> git clone https://github.com/jkuatdsc/Flask-Auth-Sample.git
+	``git clone https://github.com/jkuatdsc/Flask-Auth-Sample.git``
   
 * Navigate to the project folder
-	> cd Flask-Auth-Sample
+	``cd Flask-Auth-Sample``
 	
 * Create a virtual environment
-	> virtualenv venv
+	``virtualenv venv``
 	
 * Activate the virtual environment
-	> Source venv/bin/activate
+	``Source venv/bin/activate``
 	
 * Install dependencies from the requirements.txt file
-	> pip3 install -r requirements.txt
+	``pip3 install -r requirements.txt``
 	
 * Create a .env file
-	> touch .env
+	``touch .env``
 
 * Add environment variables to the file
-	> DEBUG=True
+	``DEBUG=True``
 
-	> SECRET_KEY='qwertyuiop1233456476897890'
+	``SECRET_KEY='qwertyuiop1233456476897890'``
 
-	> SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://username:password@127.0.0.1:5432/db_name'
+	``SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://username:password@127.0.0.1:5432/db_name'``
 
 * Create a database
 	``psql``
-    > CREATE DATABASE database_name
+    ``CREATE DATABASE database_name``
 
 ### Make migrations
 
